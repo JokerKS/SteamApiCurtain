@@ -11,6 +11,7 @@ namespace LibraryTesting
     {
         static void Main(string[] args)
         {
+            //Your Steam API key --> http://steamcommunity.com/dev/apikey
             string key = "0C947898C7FF2FB1F3D9CA63310460C1";
             string testId1 = "76561198117795575", testId2 = "76561198095672553", testId3 = "76561198023414915";
 
