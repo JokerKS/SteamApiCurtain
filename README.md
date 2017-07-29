@@ -11,8 +11,8 @@ A library that makes it easy and convenient to take data through the Steam API.
 1. ```List<App> GetAllApp()```
 
 Get all Steam applications currently registered without the use of the library Newtonsoft.Json
-
-It is recommended to use this function because it works faster with a large amount of data, and there are plenty of applications in Steam
+diff
++ It is recommended to use this function because it works faster with a large amount of data, and there are plenty of applications in Steam green
 
 *Returns a list of objects with application identifiers and its name*
 
