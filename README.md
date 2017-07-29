@@ -2,7 +2,7 @@
 A library that makes it easy and convenient to take data through the Steam API.
 
 ## Using:
-1. For most operations, you need to get ApiKey at the url: http://steamcommunity.com/dev/apikey
+1. For most operations, you need to get ApiKey at the url: (http://steamcommunity.com/dev/apikey)
 2. You need to connect the library itself(SteamApiCurtain.dll)
 3. All functions are called static, so you do not need to create any objects
 
