@@ -1,12 +1,12 @@
 # SteamApiCurtain
 A library that makes it easy and convenient to take data through the Steam API.
 
-Using:
+#Using:
 1. For most operations, you need to get ApiKey at the url: http://steamcommunity.com/dev/apikey
 2. You need to connect the library itself(SteamApiCurtain.dll)
 3. All functions are called static, so you do not need to create any objects
 
-Operations:
+# Operations:
 
 1. List<App> GetAllApp()
 Get all Steam applications currently registered without the use of the library Newtonsoft.Json
@@ -36,10 +36,10 @@ Getting the latest played games, namely its ID and title
 7. List<Player> GetFriendList(string key, string steamid)
 Get a list of friends with a public profile
 
-Example of using:
-string key = "0C947898C7FF2FB1F3D9CA63310460C1";
-string steamId = "76561198117795575"
+# Example of using:
+  string key = "0C947898C7FF2FB1F3D9CA63310460C1";
+  string steamId = "76561198117795575"
 
-List<App> apps = Operation.GetAllApp();
-List<OwnedGame> ownedgames = Operation.GetOwnedGames_v2(key, steamId);
-List<Player> friends = Operation.GetFriendList(key, steamId);
+  List<App> apps = Operation.GetAllApp();
+  List<OwnedGame> ownedgames = Operation.GetOwnedGames_v2(key, steamId);
+  List<Player> friends = Operation.GetFriendList(key, steamId);
